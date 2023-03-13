@@ -1,5 +1,6 @@
 // Action Creators
 export function addRestaurant(restaurant) {
+  console.log("dispatching: ", restaurant)
   return {
     type: "restaurants/add",
     payload: restaurant,
